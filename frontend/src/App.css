@@ -1,0 +1,78 @@
+/* Common styling for the entire app
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+} */
+
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.landing-page, .search-page, .results-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c2c48;
+  color: #fff;
+}
+
+.login-page, .signup-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c2c48;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form, .results-page div {
+  background-color: #2d3f5b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+input {
+  background-color: #fff;
+  color: #000;
+}
+
+button {
+  background-color: #ffae00;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e09c00;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.results-page h2 {
+  margin: 10px 0;
+}
+
